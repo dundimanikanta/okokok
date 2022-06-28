@@ -1,0 +1,291 @@
+*{
+   
+    font-family:'MessinaSans',sans-serif;
+  
+}
+body{
+   background-color: #fbfbfb;
+}
+#mainnavbar{
+    font-family: 'Cormorant Garamond', serif;  
+    font-size: 3rem;
+}
+.logo{
+  width:5rem;
+}
+.navbar{
+  background-color:#f8f9fa;
+
+
+  border-bottom:rgba(108, 212, 195, 0.751) solid ;
+}
+#name{
+  background-color:#f8f9fa;
+
+}
+#clgname{
+  font-family: 'Cormorant Garamond', serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#expand a:hover{
+  text-decoration: underline;
+ 
+ 
+  
+}
+@media (min-width:992px){
+ #expand a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+ }
+}
+
+#greencampusimageholder{
+  display:flex;
+  justify-content: center;
+}
+
+#green img{
+   border-radius: 3rem;
+}
+ .person{
+    width:20rem;
+ }
+ @media (max-width:556px){
+  .person{
+    width:10rem;
+ }
+ }
+
+ #directorsnote img{
+     border-radius: 50%;
+    border: solid burlywood;
+ }
+ 
+ 
+#philosophy h3{
+   text-decoration: underline;
+}
+
+.footer{
+   background-color: #4eab94b4;
+}
+.footer2{
+
+background-color: rgba(108, 212, 195, 0.751);
+}
+.footer2 p{
+  color: black;
+}
+
+
+
+#pic{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.skills {
+   background-color: #fbfbfb;
+   padding: 40px 0;
+ }
+ 
+ .skills .skills-container {
+   max-width: 1400px;
+   margin: auto;
+   text-align: center;
+ }
+ 
+ .skills h2 {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-size: calc(2rem + 1vw);
+ }
+ 
+ .skills h2 span {
+   font-family:"Roboto", Helvetica, Arial, sans-serif;
+   font-size: calc(2rem + 1vw);
+ }
+ 
+ .skills .skills-wrapper {
+   display: flex;
+   justify-content: space-around;
+ }
+ 
+  .skill {
+   display: flex;
+   align-items: center;
+   margin: 40px 0;
+   opacity: 0.3;
+   transform: translateY(30px);
+ }
+ 
+ .skills .skill .thumbnail {
+   position: relative;
+ }
+ 
+ @keyframes fadeInUp {
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+ 
+ .skills .skill .thumb-img {
+   width: calc(100px + 1vw);
+   height: calc(100px + 1vw);
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+ }
+ 
+ .skills .skill .thumb-img-1 {
+   background-image: url("images/academics.webp");
+ }
+ 
+ .skills .skill .thumb-img-2 {
+   background-image: url("images/sports.png");
+ }
+ 
+ .skills .skill .thumb-img-3 {
+   background-image: url("images/creativity.jpg");
+ }
+ 
+ .skills .skill .thumb-img-4 {
+   background-image: url("images/networking.jpg");
+ }
+ 
+ .skills .skill h3 {
+   text-align: left;
+   font-family: "Montserrat Medium", sans-serif;
+   font-size: calc(0.6rem + 1vw);
+   margin-left: 20px;
+ }
+ 
+ .skills .skill h3 span {
+   font-family: "Montserrat ExtraLight", sans-serif;
+   font-size: calc(0.6rem + 1vw);
+ }
+
+ 
+ @media screen and (max-width: 1078px) {
+   .memories-section {
+     display: block;
+     padding: 8vh 4vw;
+   }
+ 
+   .memories-section .photos-wrapper {
+     margin-top: 40px;
+     text-align: center;
+   }
+ 
+   .memories-section .photos-wrapper img:nth-child(3) {
+     transform: rotate(-9deg) translate(50px, 0);
+   }
+ }
+ 
+ @media screen and (max-width: 548px) {
+   .memories-section {
+     height: initial;
+   }
+ 
+   .memories-section .photos-wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .skills .skills-wrapper {
+     display: block;
+   }
+ 
+   .skills .skill {
+     justify-content: center;
+   }
+ 
+   .skills .skill h3,
+   .skills .skill h3 span {
+     font-size: calc(0.9rem + 1vw);
+   }
+ }
+
+ hr{
+   
+  border-top: 3px dotted rgb(28, 150, 191);
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Hero section style*/
+
+.hero {
+  height: 100vh;
+  background-image: url("images/hero.avif");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left:0;
+  margin-right: 0;
+}
+
+.hero .text-container {
+  border: 0.4rem solid #fff;
+  padding: 3vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scaleX(0);
+  overflow: hidden;
+  animation: scaleUpTitle 0.4s forwards ease-out;
+}
+
+@keyframes scaleUpTitle {
+  to {
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+}
+
+.hero .text-wrapper {
+  text-align: center;
+  padding: 2vw;
+  transform: translateY(150%);
+  animation: slideTitleUp 0.6s 0.4s forwards ease;
+}
+
+@keyframes slideTitleUp {
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.hero .text-wrapper span {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: calc(0.8rem + 3vw);
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+.hero .text-wrapper h2 {
+  font-family: "Montserrat ExtraBold", sans-serif;
+  font-size: calc(1.2rem + 3vw);
+  color: #fff;
+}
+
+.three{
+  margin-bottom:10px;
+}
+ 

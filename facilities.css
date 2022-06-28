@@ -1,0 +1,88 @@
+*{
+   
+    font-family: 'MessinaSans',sans-serif;
+  
+}
+body{
+   background-color: #fbfbfb;
+}
+#mainnavbar{
+    font-family: 'Cormorant Garamond', serif;  ;
+    font-size: 3rem;
+}
+.logo{
+  width:5rem;
+}
+.navbar{
+  background-color:#f8f9fa;
+
+  border-bottom:rgba(108, 212, 195, 0.751) solid ;
+}
+
+#expand a:hover{
+  text-decoration: underline;
+ 
+ 
+  
+}
+@media (min-width:992px){
+ #expand a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+ }
+}
+
+
+
+
+.breakline{
+    margin-top:2rem;
+    margin-bottom: 2.5rem;
+}
+hr{
+   
+    border-top: 3px dotted rgb(28, 150, 191);
+ 
+}
+ 
+
+#card-div{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    
+}
+
+.hall-image{
+    display: flex;
+    justify-content: center;
+   
+ }
+ .hall-image img{
+   
+    width:75%;
+    border-radius: 25px;
+ 
+ }
+
+
+ .footer{
+  background-color: #4eab94b4;
+}
+.footer2{
+
+background-color: rgba(108, 212, 195, 0.751);
+}
+.footer2 p{
+ color: black;
+}
+.img-fluid:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transform: scale(1.01);
+ 
+}
+.hover-none:hover{
+  box-shadow:none;
+  transform :none;
+
+}

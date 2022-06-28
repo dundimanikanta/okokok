@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+
+    <nav class="navbar p-2  navbar-expand-lg   mb-2 ">
+        <img  class="img-fluid logo"  src="images/NIT_Durgapur_Logo.png" alt="logo">
+        <a id="mainnavbar" class="navbar-brand" href="index.html">NITDGP</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#expand" >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-right" id="expand">
+            <div class="navbar-nav">
+                <a class=" nav-link" href="about.html">About Us</a>
+                <a class=" nav-link" href="courses.html">Courses offered</a>
+                <a class=" nav-link" href="club.html">Clubs and Societies</a>
+                <a class=" nav-link" href="facilities.html">Campus Life</a>
+                <a class=" nav-link" href="contactus.html">Contact Us</a>
+            </div>
+
+        </div>
+    </nav>
+    
+
+    <section class="container">
+     
+        <div class="textonimage"><h2>Graduate from NIT Durgapur </h2></div>
+       
+    </section>
+
+
+   <section class="container mt-3 ">
+
+    <div class="row" id="admcontainer">
+
+         <div class="col-10">
+            <p> Looking to get an <b>Admission</b> To pursue graduate study at NIT Durgapur, you need to apply to one of our departmental programs. 
+                You can reach out to the Admission department of the college for admission or feel free to fill out the registration form ,by diong so we will contact 
+                you as per your eligibility<p>
+          
+         </div>
+       
+    </div>
+
+    <section class="breakline container">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <hr class="line"  >
+          </div>
+        </div>
+      </section>
+
+    <section id="mapcontainer" class="container">
+    
+        <div class="row align-items-center">
+            
+          <div id='location' class="col-lg-7 ">
+            <div id="locationheading" class="row  ">
+              <h3 class="" >Address of Admissions Building</h3>
+            </div >
+            <p>
+                NIT Durgapur,Mahatma Gandhi Rd, A-Zone, Durgapur, West Bengal 713209
+  
+            </p>
+          </div>
+  
+          <div class="col-lg-5 mb-xs-3 mb-sm-2">
+              <div id="map">
+                <iframe   display='grid' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5781159595194!2d87.29094961473984!3d23.547671684689764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f772081cede5e9%3A0x33fb9ccb243dfa5!2sNational%20Institute%20of%20Technology%20Durgapur!5e0!3m2!1sen!2sin!4v1656005448628!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+  
+          
+  
+        </div>
+       </div> 
+        
+  </section>
+  
+
+   
+
+    
+
+        <div class="register">
+            <button id="registration"  class="btn d-none"  >Registration Form</button>
+        </div>
+        
+ 
+
+   </section>
+    
+    
+<div id="pop"> 
+    <section class="container mt-5" id="popup" >
+
+        <form action="#" method="post">
+            <button type="button" id="close" class="close d-none" >X</button>
+           
+            <h1 id="detailsheading">Enter your details</h1>
+
+          <div class="row " id="form-container">
+
+            <div class="col-md-5 col-9 ">
+
+
+                <label for="your_name">Your Name</label>
+                <input type="text" id="your_name" name="yourname"/>
+                
+                <label for="your_email">Email Address</label>
+                <input type="email" id="your_email" name="youremail" />
+                
+                <label for="your_phone">Phone Number</label>
+                <input type="tel" id="your_phone" name="yourphone" />
+
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday" value="select"  min="1990-01-01" max="2010-12-31">
+                
+               
+
+
+                <fieldset>
+                    <legend>Select your gender</legend>
+                    <label>
+                    <input type="radio" name="gender" value="male" />
+                      Male
+                    </label>
+                    <label>
+                    <input type="radio" name="yesorno" value="female"/>
+                      Female
+                    </label>
+                   
+                </fieldset>
+                
+               
+            </div>
+             
+              
+            <div class="col-md-5 col-9">
+
+                <label for="programtype">Choose Your Program</label>
+                <select id="programtype" name="program">
+                <option value="ug">Under Graduate</option>
+                <option value="pg">Post Graduate</option>
+                <option value="PhD">PhD</option>  
+                </select>
+                
+                <label for="address"> Address</label>
+                <textarea id="address" name="youraddress" ></textarea>
+                
+                <!-- use fieldset to group related inputs -->
+                
+                <label for="reason">Why do you want to join NIT Durgapur?</label>
+                <textarea id="reason" name="reason" ></textarea>
+
+                <fieldset>
+                    <legend>Do yo need a dorm room?</legend>
+                    <label>
+                    <input type="radio" name="yesorno" value="yes" />
+                      Yes
+                    </label>
+                    <label>
+                    <input type="radio" name="yesorno" value="no"/>
+                      No
+                    </label>
+                   
+                    </fieldset>
+                    
+                
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+
+            </div>
+                  
+
+
+
+
+
+          </div> 
+           
+        </form>
+
+    </section>
+  </div>
+
+        
+<div class="container-fluid p-0 mt-3">
+
+  <footer  class=" footer text-center text-lg-start " >
+    
+      <div class="container d-flex justify-content-center py-5 ">
+        <a href="https://www.facebook.com/nitdgpofficial/" target="_blank">      <button type="button" class="btn  mx-2 footericons" ><i class="bi bi-facebook"></i></button></a>
+         <a href="https://www.youtube.com/channel/UCnnXqep517pke6rywOC61Cg/featured" target="_blank"><button type="button" class="btn  mx-2 footericons" ><i class="bi bi-youtube"></i></button></a>
+         
+         <a href="https://www.linkedin.com/school/national-institute-of-technology-durgapur/" target="_blank"><button type="button" class="btn  mx-2 footericons" ><i class="bi bi-linkedin"></i></button> </a>
+  
+      </div>
+    
+  
+    <div class=" footer2 text-center text-white p-3" >
+     
+      <p>This is a not a original NIT website</p>
+    </div>
+   
+  </footer>
+  
+</div>
+    
+    <script src="contactus.js"></script>
+    <script>
+      
+     const form=document.querySelector('form');
+
+     form.addEventListener('submit',(e)=>{
+     e.preventDefault();
+     form.innerHTML="<h2>Thanks for Registering. We will get back to you as soon as Possible</h2>";
+})
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+</body>
+</html>
